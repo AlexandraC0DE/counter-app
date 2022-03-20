@@ -1,9 +1,9 @@
 import React from 'react';
-import button from '../styles/Button.css';
+import '../styles/Button.css';
 
 const Button = ({ text, clickButton, handleClick }) => {
     return (
-        <button
+        		<button
 						className={ clickButton ? 'click-button' : 'restart-button' }
 						onClick={handleClick}
 				>
